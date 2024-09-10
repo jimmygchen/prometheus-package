@@ -100,6 +100,7 @@ def run(
                 "--web.console.libraries=/etc/prometheus/console_libraries",
                 "--web.console.templates=/etc/prometheus/consoles",
                 "--web.enable-lifecycle",
+                "--web.enable-admin-api",
             ],
             min_cpu=min_cpu,
             max_cpu=max_cpu,
